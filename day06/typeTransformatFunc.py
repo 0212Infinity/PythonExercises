@@ -4,10 +4,13 @@
 li = list((1, 2, 3))
 print(li)
 
-#tuple()列表转换成元组
+# tuple()列表转换成元组
 
-#dict() 字典操作
+# dict() 字典操作
 dic = dict()
 print(type(dic))
-dic['name']='zhangsan'
+dic['name'] = 'zhangsan'
 print(dic)
+
+# bytes转换
+print(bytes("Hello World", encoding="utf-8"))
